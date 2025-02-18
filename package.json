@@ -1,6 +1,5 @@
 {
   "name": "coca",
- 
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -9,6 +8,17 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.1",
     "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-order": "^6.0.4"
   }
 }
