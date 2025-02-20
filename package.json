@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --emptyOutDir",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -14,7 +14,13 @@
     "eslint-plugin-prettier": "^5.2.3",
     "globals": "^15.15.0",
     "prettier": "^3.5.1",
-    "vite": "^6.1.0"
+    "sass": "^1.85.0",
+    "sharp": "^0.33.5",
+    "svgo": "^3.3.2",
+    "vite": "^6.1.0",
+    "vite-plugin-html-inject": "^1.1.2",
+    "vite-plugin-image-optimizer": "^1.1.8",
+    "vite-plugin-minify": "^2.1.0"
   },
   "dependencies": {
     "stylelint": "^16.14.1",
