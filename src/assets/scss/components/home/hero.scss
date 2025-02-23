@@ -4,7 +4,7 @@
     padding: 77px 0 121px;
   }
   @include mobile {
-  min-height: calc(100dvh - 128px);
+  min-height: calc(100dvh - 109px);
   }
   position: relative;
   &::before {
@@ -66,16 +66,19 @@
   }
 
   &__left {
-    max-width: 599px;
+    @include mini-desktop{
+      max-width: 617px;
+    }
+   
   }
 
   &__title {
     font-weight: 700;
-    font-size: 72px;
+    font-size: 80px;
     line-height: 120%;
-    letter-spacing: var(--neutral-color-100);
+    color: var(--neutral-color-100);
     margin-bottom: 114px;
-
+    letter-spacing: -0.04em;
     @include mini-desktop {
       margin-bottom: 74px;
     }
@@ -96,6 +99,12 @@
 
   &__subtitle {
     margin-bottom: 69px;
+
+    & br{
+      @include mini-desktop{
+        display: none;
+      }
+    }
   }
 
   &__form {
