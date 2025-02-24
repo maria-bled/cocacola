@@ -6,6 +6,7 @@
 
   &__container {
     @include flex-all-between;
+    gap: 58px;
 
     @include mini-desktop {
       gap: 40px;

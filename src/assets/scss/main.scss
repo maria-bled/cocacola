@@ -1,10 +1,12 @@
-@import './mixins';
-@import './base';
-@import './globals';
+@import "./mixins";
+@import "./base";
+@import "./globals";
 
 //components
 
-@import './components/header.scss';
-@import './components/home/hero.scss';
-@import './components/home/overview.scss';
-@import './components/home/features.scss';
+@import "./components/header.scss";
+@import "./components/home/hero.scss";
+@import "./components/home/overview.scss";
+@import "./components/home/features.scss";
+@import "./components/home/strenght.scss";
+@import "./components/partners.scss";
