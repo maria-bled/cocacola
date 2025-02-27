@@ -23,6 +23,7 @@
     "vite-plugin-minify": "^2.1.0"
   },
   "dependencies": {
+    "intl-tel-input": "^25.3.0",
     "stylelint": "^16.14.1",
     "stylelint-config-standard-scss": "^14.0.0",
     "stylelint-order": "^6.0.4",

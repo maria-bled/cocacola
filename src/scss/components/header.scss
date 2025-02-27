@@ -120,7 +120,12 @@
     gap: 32px;
 
     @include small-tablet {
+      gap: 20px;
       flex-direction: column;
+    }
+
+    @include mobile {
+      gap: 10px;
     }
   }
 
