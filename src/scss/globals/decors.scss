@@ -47,7 +47,7 @@
     &::after {
       content: '';
       position: absolute;
-      z-index: var(--z-index-0);
+      z-index: 0;
       display: inline-block;
       border-radius: 50%;
     }

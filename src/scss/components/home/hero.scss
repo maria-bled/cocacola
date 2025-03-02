@@ -129,7 +129,7 @@
     color: var(--neutral-color-100);
     border-bottom: 1px solid var(--neutral-color-40);
     background-color: transparent;
-
+    appearance: none; 
     @include small-tablet {
       padding-bottom: 13px;
     }
